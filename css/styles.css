@@ -640,7 +640,7 @@ h2.section-title {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 8px 14px; /* Slightly more padding for image */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--ink-muted);
   transition: all var(--transition-fast);
@@ -654,7 +654,7 @@ h2.section-title {
   object-fit: contain;
   flex-shrink: 0;
   /* Dark mode filter: make logos visible on dark bg */
-  filter: brightness(0) saturate(100%) invert(70%) sepia(15%) saturate(300%) hue-rotate(120deg);
+  filter: brightness(2) saturate(100%) invert(70%) sepia(15%) saturate(300%) hue-rotate(120deg);
   transition: filter 0.2s ease, transform 0.2s ease;
 }
 
